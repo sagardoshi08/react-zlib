@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -32,7 +32,24 @@
   },
   "name": "react-zlib",
   "author": "Sagar Doshi",
+  "author": "Sagar Doshi <sagardoshi2020@gmail.com> (http://www.meghrajtechnosoft.com/)",
+    "contributors": [
+        "Sagar Doshi <sagar@meghrajtechnosoft.com>"
+    ],
   "module": "dist/react-zlib.esm.js",
+  "description": "Deflate/Inflate tokens/string, mostly useful for browser applications.",
+  "keywords": [
+    "react.js",
+    "zlib",
+    "zlib.inflateSync",
+    "zlib.deflateSync"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/sagardoshi08/react-zlib"
+  },
+  "url": "https://github.com/sagardoshi08/react-zlib",
+  "homepage": "https://github.com/sagardoshi08/react-zlib#readme",
   "size-limit": [
     {
       "path": "dist/react-zlib.cjs.production.min.js",
@@ -50,5 +67,8 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "zlib": "^1.0.5"
   }
 }
