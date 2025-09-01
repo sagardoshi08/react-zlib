@@ -25,3 +25,5 @@ const inflated = inflate(token);
 console.log(inflated);
 
 ```
+
+<!-- Security scan triggered at 2025-09-01 20:17:20 -->
